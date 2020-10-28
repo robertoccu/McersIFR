@@ -1,0 +1,36 @@
+  name: McersIFR
+  main: McersIFR
+  version: .1-prototype
+  api-version: 1.16
+
+  commands:
+    ifr:
+      description: Description
+      usage: /ifr
+
+  permissions:
+    ifr.admin:
+      children:
+        ifr.set: true
+        ifr.mod: true
+        ifr.del: true
+        ifr.select: true
+        ifr.info : true
+    ifr.usage:
+      ifr.select: true
+      ifr.info : true
+    ifr.set:
+      description: Allows to set new flight points
+      default: op
+    ifr.mod:
+      description: Allows to modify existing flight points
+      default: op
+    ifr.del:
+      description: Allows to delete existing flight points
+      default: op
+    ifr.select:
+      description: Allows to select a flight point in a compass
+      default: op
+    ifr.info:
+      description: Allows to see plugin info
+      default: op
