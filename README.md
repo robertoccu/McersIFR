@@ -8,4 +8,4 @@ Hi! This plugins is in it early days of development. Now have some things that c
 Comeback in the future and this will have useful information
 
 ## Developed for Minecrafters.es (Spanish community)
-[![Minecrafters](https://i.imgur.com/xHHHf31.jpg)](http://www.minecrafters.es/)
+[![Minecrafters](https://i.imgur.com/xHHHf31.jpg)](https://mcers.es/)
